@@ -1,0 +1,2 @@
+import type { ReactNode } from 'react'; import { ArrowUpRight } from 'lucide-react';
+export function Button({children,dark=false,onClick,type='button',disabled=false}:{children:ReactNode;dark?:boolean;onClick?:()=>void;type?:'button'|'submit';disabled?:boolean}){return <button type={type} disabled={disabled} className={'button '+(dark?'button-dark':'')} onClick={onClick}>{children}<ArrowUpRight size={15}/></button>}

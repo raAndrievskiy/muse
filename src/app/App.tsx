@@ -1,0 +1,2 @@
+import { Header } from '../components/layout/Header'; import { Footer } from '../components/layout/Footer'; import { Hero } from '../sections/Hero'; import { FromWords } from '../sections/FromWords'; import { Directions } from '../sections/Directions'; import { VisualSystem } from '../sections/VisualSystem'; import { InteractiveDemo } from '../sections/InteractiveDemo'; import { FinalCta } from '../sections/FinalCta';
+export function App(){return <><Header/><main><Hero/><FromWords/><Directions/><VisualSystem/><InteractiveDemo/><FinalCta/></main><Footer/></>}
